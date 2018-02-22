@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+ 
+ body {
+     margin: 0;
+     padding: 0;
+     background: url(../images/background.jpg);
+     background-color: black;
+     font-family: 'PT Sans Narrow', sans-serif;
+ }
+
+ header {
+     padding: 0;
+     margin: 0;
+     background-color: lightgray;
+     border-bottom: 10px solid #61c902;
+ }
+
+ img {
+     width: 29%;
+     margin: 0 auto;
+     padding: 1em;
+ }
+
+ aside {
+     width: 36%;
+     float: left;
+     margin-top: 1.5em;
+     margin-left: 1.5em;
+     margin-bottom: 1.5em;
+     background-color: black;
+     color: white;
+ }
+
+ aside h2 {
+     padding: .5em;
+ }
+
+ aside p {
+     padding: 1em;
+ }
+
+ #info {
+     padding-bottom: 1em;
+     text-align: center;
+ }
+
+ section {
+     width: 60%;
+     float: right;
+     margin-top: 1.5em;
+     margin-right: 1.5em;
+     margin-bottom: 1.5em;
+     background-color: black;
+     color: white;
+ }
+
+ section h1 {
+     padding: .5em;
+ }
+
+ footer {
+     margin: 0;
+     padding: 0;
+     height: 5em;
+     clear: both;
+     background-color: lightgray;
+     border-top: 10px solid #61c902;
+     border-bottom: 10px solid lightgray;
+     text-align: center;
+ }
+
+ footer p {
+     padding: .5em;
+ }
+
+ @media only screen and (max-width: 1024px) {
+     body {
+         background-color: black;
+         background-image: none;
+     }
+     img {
+        width: 90%;
+        margin-bottom: 1em;
+        border: 3px double lightgray;
+     }
+     aside {
+         margin: 0 auto;
+         padding: 0;
+         width: 100%;
+         float: none;
+         clear: both;
+     }
+
+     #info {
+         padding-bottom: 1em;
+     }
+     span {
+         display: none;
+     }
+     section {
+         margin: 0 auto;
+         padding: 0;
+         width: 100%;
+         float: none;
+     }
+     footer {
+         margin: 0;
+         padding: 0;
+         height: 2em;
+         clear: both;
+         background-color: lightgray;
+         border-top: 10px solid #61c902;
+         border-bottom: 10px solid lightgray;
+         text-align: center;
+         overflow: hiddden;
+     }
+     footer>p {
+         margin-top: 0;
+     }
+ }
+
+ /* .grow { 
+     transition: all .2s ease-in-out;
+     overflow: hidden;
+     height: 1.7em;
+     color: darkgrey;
+ }
+
+ .grow:hover {
+     height: 3em;
+     color: black;
+ }/
