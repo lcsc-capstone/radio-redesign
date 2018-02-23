@@ -5,6 +5,11 @@
      padding: 0;
      background: url(../images/background.jpg);
      background-color: black;
+     font-family: 'PT Sans Narrow', sans-serif !important;
+      letter-spacing: .05em; 
+ }
+
+ h1, h2, h3, h4, h5, h6{
      font-family: 'PT Sans Narrow', sans-serif;
  }
 
@@ -15,10 +20,34 @@
      border-bottom: 10px solid #61c902;
  }
 
+ header h1{
+     float: right !important;
+     padding: 1em;
+     margin: 0;
+     font-size: 175%;
+     letter-spacing: .25em;
+ }
+
+ header img {
+     width: 40%;
+ }
+
+ header p img {
+     width: 3%;
+     margin: 0;
+     padding: .5em;
+     float: right;
+ }
+
  img {
      width: 29%;
      margin: 0 auto;
      padding: 1em;
+ }
+
+ div {
+     font-size: 125%;
+     letter-spacing: .10em;
  }
 
  aside {
@@ -54,7 +83,7 @@
      color: white;
  }
 
- section h1 {
+ section h2 {
      padding: .5em;
  }
 
@@ -78,6 +107,11 @@
          background-color: black;
          background-image: none;
      }
+
+header span{
+    color: white;
+}
+
      img {
         width: 90%;
         margin-bottom: 1em;
