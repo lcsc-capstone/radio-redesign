@@ -6,6 +6,7 @@
      background: url(../images/background.jpg);
      background-color: black;
      font-family: 'PT Sans Narrow', sans-serif;
+     line-height:150%;
  }
 
  header {

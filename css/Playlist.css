@@ -4,27 +4,36 @@ div.Player,
 div.Playlist,
 div.Title,
 div.list {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     padding: 0 0 0 1em;
-    float:right;
-    width:100%;
-}
-
-div.Title{
-    color:grey;
-    padding-top:1em;
+    float: right;
+    width: 100%;
 }
 
 div.Title {
-    float:left;
+    color: grey;
+    padding-top: 1em;
+}
+
+div.Title {
+    float: left;
     width: 10em;
 }
 
 div.Playlist {
     height: 6em;
 }
-div.list p{
-    margin:0;
+
+div.list p {
+    margin: 0;
+}
+
+section#MusicSection {
+    background-image: url("../images/LogoRecord.png");
+    background-repeat:no-repeat;
+    background-position:top right;
+    background-size: 25em;
+    height:25em;
 }
