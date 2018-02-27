@@ -1,0 +1,30 @@
+/*YOU NEED THIS https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
+div.Player,
+div.Playlist,
+div.Title,
+div.list {
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding: 0 0 0 1em;
+    float:right;
+    width:100%;
+}
+
+div.Title{
+    color:grey;
+    padding-top:1em;
+}
+
+div.Title {
+    float:left;
+    width: 10em;
+}
+
+div.Playlist {
+    height: 6em;
+}
+div.list p{
+    margin:0;
+}
